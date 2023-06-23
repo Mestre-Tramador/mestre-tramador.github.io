@@ -1,0 +1,12 @@
+# Node.js specific
+node_modules/
+
+# Yarn specific
+.yarn/
+.pnp.*js
+
+# IDE specific
+.vscode/
+
+# Build folder
+build/

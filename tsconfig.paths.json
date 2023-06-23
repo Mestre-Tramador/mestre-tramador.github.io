@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@cli": ["./src/cli"],
+      "@enums/*": ["./src/modules/enums/*"],
+      "@interfaces/*": ["./src/modules/interfaces/*"],
+      "@models/*": ["./src/modules/models/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@tools": ["./src/tools"],
+      "@types/*": ["./src/types/*"]
+    }
+  }
+}

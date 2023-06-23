@@ -1,0 +1,74 @@
+{
+  "name": "mestre-tramador-pages",
+  "version": "0.0.1",
+  "description": "The main source of Mestre-Tramador's GitHub Pages site.",
+  "keywords": [
+    "tramador",
+    "homepage",
+    "br"
+  ],
+  "homepage": "https://mestretramador.com.br",
+  "bugs": {
+    "url": "https://github.com/Mestre-Tramador/mestre-tramador.github.io/issues"
+  },
+  "license": "GPL-3.0-only",
+  "author": {
+    "name": "Mestre-Tramador",
+    "url": "https://github.com/Mestre-Tramador"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
+    "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
+    "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+  },
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.34",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.62.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "workbox-background-sync": "^6.6.0",
+    "workbox-broadcast-update": "^6.6.0",
+    "workbox-cacheable-response": "^6.6.0",
+    "workbox-core": "^6.6.0",
+    "workbox-expiration": "^6.6.0",
+    "workbox-google-analytics": "^6.6.0",
+    "workbox-navigation-preload": "^6.6.0",
+    "workbox-precaching": "^6.6.0",
+    "workbox-range-requests": "^6.6.0",
+    "workbox-routing": "^6.6.0",
+    "workbox-strategies": "^6.6.0",
+    "workbox-streams": "^6.6.0"
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.24",
+    "prettier": "^2.8.8",
+    "stylelint": "^15.7.0",
+    "stylelint-config-clean-order": "^5.0.1",
+    "stylelint-config-sass-guidelines": "^10.0.0"
+  }
+}

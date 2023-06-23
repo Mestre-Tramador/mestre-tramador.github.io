@@ -1,0 +1,13 @@
+# More info at: https://browsersl.ist
+
+# To prevent conflicts, same browsers of React.js were used
+[production]
+>0.2%
+not dead
+not op_mini all
+
+# Including on DEV environment
+[development]
+last 1 chrome version
+last 1 firefox version
+last 1 safari version

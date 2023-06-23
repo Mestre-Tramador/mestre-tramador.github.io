@@ -1,0 +1,5 @@
+# Same as Prettier
+.eslintrc.js
+.prettierrc.js
+.stylelintrc.js
+craco.config.js

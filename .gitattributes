@@ -1,0 +1,22 @@
+# Normalize files
+* text=auto
+
+*.html diff=html
+*.css  diff=css
+*.scss diff=css
+*.md   diff=markdown
+
+# Set lock files without diff
+package-lock.json -diff
+pnpm-lock.yaml    -diff
+yarn.lock         -diff
+
+# Set binary files to LFS
+*.ico binary filter=lfs diff=lfs merge=lfs -text
+*.png binary filter=lfs diff=lfs merge=lfs -text
+*.svg binary filter=lfs diff=lfs merge=lfs -text
+*.tff binary filter=lfs diff=lfs merge=lfs -text
+
+# Fix LICENSE file linguist language
+LICENSE linguist-language=Text
+

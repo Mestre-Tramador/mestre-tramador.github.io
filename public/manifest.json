@@ -1,0 +1,25 @@
+{
+  "short_name": "HIGH",
+  "name": "Humanized Interface to Govern Hyper-Projects",
+  "icons": [
+    {
+      "src": "favicon/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "64x64 32x32 24x24 16x16"
+    },
+    {
+      "src": "favicon/192icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicon/512icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#000000"
+}

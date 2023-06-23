@@ -1,0 +1,5 @@
+# Web Robots info on: https://www.robotstxt.org/robotstxt.html
+
+# Using React.js default Web Robots configuration
+User-agent: *
+Disallow:
